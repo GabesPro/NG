@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    border: solid #a30404;
+    margin-top: 0 auto;
+
+}
+
+a:hover {
+    color: #a30404;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#Voltar-btn {
+    border: 2px solid #a30404;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+#Voltar-btn:hover {
+    background-color: #a30404;
+    color: white;
+}
+
+h1 {
+    font: 56px;
+    line-height: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+span {
+    color: #a30404;
+}
+
+p {
+    line-height: 30px;
+    max-width: 400px;
+    flex-direction: column;
+    color: white;
+
+    margin-top: 50px;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    /* ajusta a largura da imagem à largura da tela */
+    height: auto;
+    /* ajusta a altura da imagem automaticamente */
+}
+
+.borda-branca {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: translateY(2px);
+}

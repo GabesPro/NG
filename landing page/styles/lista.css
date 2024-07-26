@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    border: solid #a30404;
+    margin-top: 0 auto;
+
+}
+
+a:hover {
+    color: #a30404;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#Voltar-btn {
+    border: 2px solid #a30404;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+#Voltar-btn:hover {
+    background-color: #a30404;
+    color: white;
+}
+
+/* Estiliza o container */
+.container {
+    font-size: 0.9em ;
+    margin-top: 20px;
+    display: flex; /* faz com que os elementos filhos sejam exibidos lado a lado */
+    flex-wrap: wrap; /* permite que os elementos filhos sejam quebrados em linhas novas */
+    justify-content: space-between; /* espaça os elementos filhos igualmente */
+  }
+  
+  /* Estiliza a coluna de imagem */
+  .coluna-imagem {
+    width: 40%; /* largura da coluna de imagem */
+    margin: 10px; /* espaçamento interno */
+}
+
+img {
+
+        border: 1px solid #a30404;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: translateY(2px);
+
+}
+  
+  /* Estiliza a coluna de texto */
+  .coluna-texto {
+    width: 50%; /* largura da coluna de texto */
+    margin: 10px; /* espaçamento interno */
+    padding: 20px; /* espaçamento interno */
+
+    border: 1px solid #ddd; /* borda */
+    border-radius: 10px; /* arredondamento das bordas */
+  }
+
+  .imagem {
+    visibility: visible; /* exibe a imagem por padrão */
+  }
+  
+  @media (max-width: 600px) {
+    .imagem {
+      visibility: hidden; /* oculta a imagem quando a resolução for menor que 600px */
+    }
+  }

@@ -1,0 +1,36 @@
+body {
+    background-image: url('/components/imagens/a-whimsical-and-enchanting-sky-scene-featuring-a-v-yHdl7XptR4q0nuSJ_zE5zA-hLM_skflShmPkZGSNRAU1w.jpeg');
+    background-size: 100vw 100vh; /* ou 100% 100% */
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+  }
+
+a{
+    color: white !important;
+}
+#Voltar-btn {
+    border: 2px solid #a30404;
+    padding: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-left: 30px; 
+}
+
+#Voltar-btn:hover {
+    background-color: #a30404;
+    color: white;
+}
+
+.container{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
